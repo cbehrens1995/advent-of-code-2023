@@ -8,6 +8,7 @@
     <modules>
         <module>aoc-commons</module>
         <module>aoc-third</module>
+        <module>aoc-fourth</module>
     </modules>
     <groupId>de.cbehrens</groupId>
     <version>1.0-SNAPSHOT</version>
