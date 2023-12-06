@@ -119,7 +119,9 @@ class Solution {
             seeds.add(startingPoint.add(i.toBigInteger()))
         }
 
-        return determineLowestLocationForSeeds(seeds, linesByMapVariation)
+        return ListUtils.partition(seeds.toList(), 100).stream()
+            .map { it -> determineLowestLocationForSeeds(it, linesByMapVariation) }
+            .min(Comparator.naturalOrder()).get()
     }
 
     private fun determineLocation(
