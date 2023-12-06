@@ -10,6 +10,7 @@
         <module>aoc-third</module>
         <module>aoc-fourth</module>
         <module>aoc-fifth</module>
+        <module>aoc-sixth</module>
     </modules>
     <groupId>de.cbehrens</groupId>
     <version>1.0-SNAPSHOT</version>
